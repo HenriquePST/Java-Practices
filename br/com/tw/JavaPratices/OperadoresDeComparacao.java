@@ -12,7 +12,7 @@ public class OperadoresDeComparacao {
         System.out.println(11 == 10);
         
         // Diferenca
-        System.out.println(10 != 10);
+        System.out.println(11 != 10);
 
         // Maior ou igual
         System.out.println(11 >= 10);
