@@ -9,7 +9,7 @@ Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede qu
 
 ---
 
-# **Praticando Noções Básicas, POO ** 
+# Praticando Noções Básicas, POO 
 
 
  - [Fundamentos ](https://github.com/HenriquePST/Java-Pratices/tree/main/FundamentosJava/br/com/tw/JavaPratices)
