@@ -5,6 +5,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 @RequestMapping("/")
@@ -19,6 +20,14 @@ public class HomeController {
         public String home2(ModelMap modelMap) {
             modelMap.addAttribute("nome", "Spring");
             return "home";
+        }
+
+        @GetMapping("/modelandview")
+        public ModelAndView home3(){
+            var modelAndView = new ModelAndView("home");
+
+            modelAndView.addObject("nome", "Spring2");
+            return modelAndView;
         }
      }
 
