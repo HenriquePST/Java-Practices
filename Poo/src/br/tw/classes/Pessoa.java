@@ -1,14 +1,19 @@
 package Poo.src.br.tw.classes;
-public class Pessoa {
+
+import Poo.src.br.tw.interfaces.Isaldo;
+
+public abstract class Pessoa  implements Isaldo {
 
     private String nome;
     private String telefone;
     private String endereco;
+    private double saldo;
 
     public Pessoa (String nome, String telefone, String endereco){
         this.nome = nome;
         this.telefone = telefone;
         this.endereco = endereco;
+        this.saldo = 0.0;
     }
 
     public String getnome (){
@@ -35,5 +40,11 @@ public class Pessoa {
         this.endereco = endereco;
     }
 
-    
+    public double getSaldo() {
+        return saldo;
+    }
+
+    protected void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
 }

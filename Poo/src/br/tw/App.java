@@ -3,7 +3,7 @@ package Poo.src.br.tw;
 import Poo.src.br.tw.classes.Atendimento;
 import Poo.src.br.tw.classes.Cliente;
 import Poo.src.br.tw.classes.Musico;
-import Poo.src.br.tw.classes.Pessoa;
+
 
 public class App {
 
@@ -14,17 +14,24 @@ public class App {
         System.out.println("telefone" + musico.getTelefone());
         System.out.println("endereco" + musico.getEndereco());
         System.out.println("ChavePix" + musico.getChavePix());
-
+        System.out.println("saldo:" + musico.getSaldo());
+        musico.depositar(100);
+        System.out.println("saldo:" + musico.getSaldo());
+        musico.sacar(50);
+        System.out.println("saldo" + musico.getSaldo());
         musico.atender("Joao");
 
-        var cliente = new Cliente("Pedro", "81 9999999", "av caxanga", 1000.0);
+        var cliente = new Cliente("Pedro", "81 9999999", "av caxanga");
 
         System.out.println("nome" + cliente.getnome());
         System.out.println("telefone" + cliente.getTelefone());
         System.out.println("endereco" + cliente.getEndereco());
-        System.out.println("endereco" + cliente.getSaldo());
-
-        var atendimento = new Atendimento();
+        System.out.println("Saldo" + cliente.getSaldo());
+        cliente.depositar(100);
+        System.out.println("Saldo" + cliente.getSaldo());
+        cliente.sacar(50);
+        System.out.println("Saldo" + cliente.getSaldo());
+                var atendimento = new Atendimento();
         atendimento.setHoras(6);
         System.out.println(atendimento.getHoras());
 
