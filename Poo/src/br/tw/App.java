@@ -60,6 +60,16 @@ public class App {
 
         System.out.println(musico3.equals(musico4));
 
+        var atendimento2= new Atendimento();
+        atendimento2.setData("01/01/2022");
+        atendimento2.setHoras(10);
+        atendimento2.setCliente(cliente);
+        atendimento2.setMusico(musico);
+
+        System.out.println(atendimento2.getData());
+        System.out.println(atendimento2.getHoras());
+        System.out.println(atendimento2.getCliente().getnome());
+        System.out.println(atendimento2.getCliente().getnome());
     }
 }
 
