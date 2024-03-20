@@ -12,6 +12,7 @@ public class Cliente extends Pessoa {
     public void depositar (double valor){
         var saldoAtual = this.getSaldo();
         var novoSaldo = saldoAtual + valor + (valor + 0.1);
+        this.setSaldo(novoSaldo);
     }
     @Override
     public  void sacar (double valor){

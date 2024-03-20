@@ -27,14 +27,30 @@ public class App {
         System.out.println("telefone" + cliente.getTelefone());
         System.out.println("endereco" + cliente.getEndereco());
         System.out.println("Saldo" + cliente.getSaldo());
-        cliente.depositar(100);
+        cliente.depositar(120);
         System.out.println("Saldo" + cliente.getSaldo());
         cliente.sacar(50);
         System.out.println("Saldo" + cliente.getSaldo());
-                var atendimento = new Atendimento();
+
+
+        var atendimento = new Atendimento();
         atendimento.setHoras(6);
         System.out.println(atendimento.getHoras());
 
+        var cliente2 = new Cliente("Pedro", "81 9999999", "av caxanga");
+        var musico2 = new Musico("Joao Candido", "81 9999999", "av. recife", "123");
+
+
+        cliente2.depositar(100);
+        cliente2.transferir(musico2,30);
+
+        System.out.println(cliente2.getSaldo());
+        System.out.println(musico2.getSaldo());
+
+        musico2.transferir(cliente2,10);
+
+        System.out.println(cliente2.getSaldo());
+        System.out.println(musico2.getSaldo());
     }
 }
 
