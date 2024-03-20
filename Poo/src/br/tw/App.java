@@ -51,6 +51,15 @@ public class App {
 
         System.out.println(cliente2.getSaldo());
         System.out.println(musico2.getSaldo());
+
+        System.out.println(cliente);
+        System.out.println(musico);
+
+        var musico3 = new Musico("Joao Candido", "81 9999999", "av. recife", "123");
+        var musico4 = new Musico("Joao Candido", "81 9999999", "av. recife", "123");
+
+        System.out.println(musico3.equals(musico4));
+
     }
 }
 

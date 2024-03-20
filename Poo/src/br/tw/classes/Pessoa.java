@@ -2,6 +2,8 @@ package Poo.src.br.tw.classes;
 
 import Poo.src.br.tw.interfaces.Isaldo;
 
+import java.util.Objects;
+
 public abstract class Pessoa  implements Isaldo {
 
     private String nome;
@@ -53,5 +55,17 @@ public abstract class Pessoa  implements Isaldo {
         obj.depositar(valor);
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Pessoa pessoa = (Pessoa) o;
+        return Double.compare(saldo, pessoa.saldo) == 0 && Objects.equals(nome, pessoa.nome) && Objects.equals(telefone, pessoa.telefone) && Objects.equals(endereco, pessoa.endereco);
     }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nome, telefone, endereco, saldo);
+    }
+}
 
