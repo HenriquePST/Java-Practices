@@ -15,6 +15,12 @@ public class Calculadora {
         System.out.println(soma);
     }
 
+    public static int soma(int x, int y){
+        soma = x + y;
+        System.out.println(soma);
+        return soma;
+    }
+
     public static void subtracao() {
         subtracao = x - y;
         System.out.println(subtracao);

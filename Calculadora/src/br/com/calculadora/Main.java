@@ -16,9 +16,12 @@ public class Main {
 
 
         Calculadora.soma();
+        int MainCalcula = Calculadora.soma(40,20);
+        System.out.println(MainCalcula);
         Calculadora.subtracao();
         Calculadora.Multiplicacao();
         Calculadora.divisao();
+
 
     }
 }
