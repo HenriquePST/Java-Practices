@@ -33,6 +33,8 @@ Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede qu
 
 **Variaveis**
 
+---
+
  
  - [POO ](https://github.com/HenriquePST/Java-Pratices/tree/main/Poo)
 
