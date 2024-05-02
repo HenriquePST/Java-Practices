@@ -16,13 +16,21 @@ Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede qu
  - [Estudos Java ](https://github.com/HenriquePST/Java-Practices/tree/main/EstudosJava/src)
 
 **Arrays**
+
 **Collections**
+
 **EstruturaCondicionais**
+
 **EstruturaDeRepeticao**
+
 **OlaMundo**
+
 **OperadoresDeComparacao**
+
 **OperadoresLogicos**
+
 **OperadoresMatematicos**
+
 **Variaveis**
 
  
