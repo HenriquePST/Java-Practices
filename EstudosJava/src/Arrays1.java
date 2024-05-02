@@ -13,18 +13,17 @@ public class Arrays1 {
         nomes[3] = "kurosaki";
 
         // propriedade que retorna tamanho ddo array
-      //  System.out.println(nomes.length);
+        //  System.out.println(nomes.length);
 
-        for (int i = 0; i<nomes.length;i++){
-        //for (int i = 0; i < 3; i++) {
-            System.out.println(nomes[i]);
+        for (int i = 0; i < nomes.length; i++) {
+            //for (int i = 0; i < 3; i++) {
+            System.out.println((i + 1) + "  "  +nomes[i]);
         }
 
-            /**
-            System.out.println("NOME" + nomes[0]);
-            System.out.println("NOME" + nomes[1]);
-            System.out.println("NOME" + nomes[2]);
-            **/
-
+        /**
+         System.out.println("NOME" + nomes[0]);
+         System.out.println("NOME" + nomes[1]);
+         System.out.println("NOME" + nomes[2]);
+         **/
     }
 }
