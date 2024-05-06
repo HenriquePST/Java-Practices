@@ -1,3 +1,5 @@
+package Introducao;
+
 public class Arrays1 {
     public static void main(String[] args) {
 
@@ -17,7 +19,7 @@ public class Arrays1 {
 
         for (int i = 0; i < nomes.length; i++) {
             //for (int i = 0; i < 3; i++) {
-            System.out.println((i + 1) + "  "  +nomes[i]);
+            System.out.println((i + 1) + " : "  +nomes[i]);
         }
 
         /**

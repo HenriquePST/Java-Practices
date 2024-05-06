@@ -1,3 +1,5 @@
+package Introducao;
+
 public class Arrays5 {
     public static void main(String[] args) {
         int [] arrInt = {1,2,3};
@@ -9,7 +11,8 @@ public class Arrays5 {
 //        dias[1] = new int[]{1,2,3};
 //        dias[2] = new int[4];
 
-        int [][] dias = {{0,0}},{{1,2,3}},{{0,0,0,0}}
+
+        int[][] dias = {{0, 0}, {1, 2, 3}, {0, 0, 0, 0}};
 
         //qual é o valor da posicao [1][2] = 3
 

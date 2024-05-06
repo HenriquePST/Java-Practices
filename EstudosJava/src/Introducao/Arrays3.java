@@ -1,3 +1,5 @@
+package Introducao;
+
 public class Arrays3 {
 
     //foreach

@@ -1,3 +1,5 @@
+package Introducao;
+
 public class Arrays2 {
 
     //tipos de arrays

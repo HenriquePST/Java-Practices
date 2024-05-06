@@ -1,4 +1,4 @@
-package br.com.tw.JavaPratices;
+package Introducao;
 
 public class Variaveis {
     public static void main(String[] args) {
