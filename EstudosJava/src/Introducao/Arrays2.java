@@ -10,7 +10,7 @@ public class Arrays2 {
 
 
     for (int i=0; i<numeros2.length; i++){
-        System.out.println(numeros2[i] + " tamanho ");
+        System.out.println(numeros2[i] + " tamanho 1");
     }
 
         for (int num : numeros2){
