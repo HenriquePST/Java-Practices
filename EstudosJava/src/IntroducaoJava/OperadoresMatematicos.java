@@ -1,4 +1,4 @@
-package Introducao;
+package IntroducaoJava;
 
 public class OperadoresMatematicos {
 

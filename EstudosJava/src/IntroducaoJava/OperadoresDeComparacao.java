@@ -1,4 +1,4 @@
-package Introducao;
+package IntroducaoJava;
 
 public class OperadoresDeComparacao {
     public static void main(String[] args) {
