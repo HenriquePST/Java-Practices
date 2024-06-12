@@ -5,8 +5,8 @@ public class Aula02TipoPrimitivos {
         // int, double, float , char, byte, short, long, boolean
         int idade = 10;
         long numeroGrande = 100000;
-        double salarioDouble = 2000;
-        float salarioFloat = 2500;
+        double salarioDouble = 200.0;
+        float salarioFloat = (float) 2500.0D;
         byte idadeByte = -128;
         short idadeShort = 10;
         boolean verdade = true;
@@ -16,6 +16,7 @@ public class Aula02TipoPrimitivos {
        System.out.println("A idade é "+idade+ " anos");
         System.out.println(falso);
         System.out.println(caractere+"char");
+        System.out.println(salarioFloat);
 
 
     }
