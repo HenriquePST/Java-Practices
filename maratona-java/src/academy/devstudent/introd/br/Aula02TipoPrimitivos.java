@@ -12,11 +12,14 @@ public class Aula02TipoPrimitivos {
         boolean verdade = true;
         boolean falso = false;
         char caractere = 'M';
+        String nome = "texto";
+
 
        System.out.println("A idade é "+idade+ " anos");
         System.out.println(falso);
         System.out.println(caractere+"char");
         System.out.println(salarioFloat);
+        System.out.println(nome);
 
 
     }
